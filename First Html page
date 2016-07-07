@@ -14,14 +14,19 @@
         display: block;
         margin-right: auto;
         margin-left: auto;
+        margin-bottom: 15px;
         max-height: 500px;
       }
-      .align {
+<!-- ^ btm adds space b/w pic and btn, do not put comments in {} -->
+    .align {
         text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
       }
       .gray-background{
         background-color: gray;
         max-width: 175px;
+        padding: 2px;
       }
     h1{
       color: #8a2be2;
@@ -32,18 +37,16 @@
       font-size:14px;
       background: #587286;
       margin:auto;
-      display:block;
+      display: block;
     }
   </style>
     <h1>Where does this go?</h1>
     <body bgcolor= "#000000"> 
     <img class="img-responsive center-block" src="C:\Users\Earthling\Pictures\3A55Kx3.jpg">
-    <!-- Add music -->
+    <!-- Adds music -->
 <audio id="myTune">
   <source src="C:\Users\Public\Music\Sample Music\Sleep Away.mp3">
 </audio>
-<!-- Using paragraph to add space between picture and button -->
-<p></p>
   <button style="color:blue" onclick="document.getElementById('myTune').play()">Anywhere ^_^!</button>
     <h3 style="color: purple" class="align">Guess that's...</h3>
   <div class="gray-background center-block">
