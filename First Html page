@@ -28,6 +28,6 @@
 <audio id="myTune">
   <source src="C:\Users\Public\Music\Sample Music\Sleep Away.mp3">
 </audio>
-<!-- Btn's center-block class ! allow for btn/btn text modification -->
+<!-- Btn's center-block class ! allow for btn modification? -->
   <button style="color:blue" class="center-block" onclick="document.getElementById('myTune').play()">Anywhere!</button>
   </body>     
