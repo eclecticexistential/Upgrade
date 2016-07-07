@@ -8,6 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- proper rendering of Bootstrap for mobile devices -->
 </head>
+<!-- Try <div class="container"> <div class="row"> <div class="col-xs-12> (xs will scale up)" -->
   <style>
         .center-block {
         display: block;
@@ -28,5 +29,5 @@
   <source src="C:\Users\Public\Music\Sample Music\Sleep Away.mp3">
 </audio>
 <!-- Btn's center-block class ! allow for btn/btn text modification -->
-  <button class="center-block" onclick="document.getElementById('myTune').play()">Anywhere!</button>
+  <button style="color:blue" class="center-block" onclick="document.getElementById('myTune').play()">Anywhere!</button>
   </body>     
