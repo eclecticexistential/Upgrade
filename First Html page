@@ -16,6 +16,9 @@
         margin-left: auto;
         max-height: 500px;
       }
+      .align {
+        text-align: center;
+      }
       .gray-background{
         background-color: gray;
         max-width: 175px;
@@ -35,7 +38,7 @@
 <!-- Btn's center-block class ! allow for btn modification? -->
 <p></p>
   <button style="color:blue" class="center-block" onclick="document.getElementById('myTune').play()">Anywhere ^_^!</button>
-    <p style="color: purple">Guess that's...</p>
+    <h3 style="color: purple" class="align">Guess that's...</h3>
   <div class="gray-background center-block">
     <label><input type="radio" name="awesome-fabulous" checked>Awesome</label>
     <label><input type="radio" name="awesome-fabulous">Fabulous</label>
