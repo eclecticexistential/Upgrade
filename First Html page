@@ -16,6 +16,10 @@
         margin-left: auto;
         max-height: 500px;
       }
+      .gray-background{
+        background-color: gray;
+        max-width: 175px;
+      }
     h1{
       color: #8a2be2;
       text-align:center;
@@ -29,5 +33,11 @@
   <source src="C:\Users\Public\Music\Sample Music\Sleep Away.mp3">
 </audio>
 <!-- Btn's center-block class ! allow for btn modification? -->
-  <button style="color:blue" class="center-block" onclick="document.getElementById('myTune').play()">Anywhere!</button>
+<p></p>
+  <button style="color:blue" class="center-block" onclick="document.getElementById('myTune').play()">Anywhere ^_^!</button>
+    <p style="color: purple">Guess that's...</p>
+  <div class="gray-background center-block">
+    <label><input type="radio" name="awesome-fabulous" checked>Awesome</label>
+    <label><input type="radio" name="awesome-fabulous">Fabulous</label>
+  </div>
   </body>     
