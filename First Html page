@@ -49,6 +49,7 @@
 </audio>
   <button style="color:blue" onclick="document.getElementById('myTune').play()">Anywhere ^_^!</button>
     <h3 style="color: purple" class="align">Guess that's...</h3>
+    <!-- in-line style overrides css style class and id's -->
   <div class="gray-background center-block">
     <label><input type="radio" name="awesome-fabulous" checked>Awesome</label>
     <label><input type="radio" name="awesome-fabulous">Fabulous</label>
