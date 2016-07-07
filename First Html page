@@ -27,6 +27,13 @@
       color: #8a2be2;
       text-align:center;
     }
+    button {
+      padding:5px 20px;
+      font-size:14px;
+      background: #587286;
+      margin:auto;
+      display:block;
+    }
   </style>
     <h1>Where does this go?</h1>
     <body bgcolor= "#000000"> 
@@ -35,9 +42,9 @@
 <audio id="myTune">
   <source src="C:\Users\Public\Music\Sample Music\Sleep Away.mp3">
 </audio>
-<!-- Btn's center-block class ! allow for btn modification? -->
+<!-- Using paragraph to add space between picture and button -->
 <p></p>
-  <button style="color:blue" class="center-block" onclick="document.getElementById('myTune').play()">Anywhere ^_^!</button>
+  <button style="color:blue" onclick="document.getElementById('myTune').play()">Anywhere ^_^!</button>
     <h3 style="color: purple" class="align">Guess that's...</h3>
   <div class="gray-background center-block">
     <label><input type="radio" name="awesome-fabulous" checked>Awesome</label>
