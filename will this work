@@ -1,0 +1,12 @@
+<script>
+$(document).ready(function() {
+  $("button").addClass("animated bounce");
+  $(".well").addClass("animated shaked");
+  $("#target3").addClass("animated fadeOut");
+})
+</script>
+<div class="container-fluid">
+<button class="btn btn-default target" id="target3">jQuery</button>
+<p class="well">does this ready doc work?</p>
+</div>
+<!-- This does not work when opening a web page -->
