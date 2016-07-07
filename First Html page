@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-  <link rel="stylesheet"
-    href="//maxcdn.bootstrapcdn.com/boostrap/3.3.1/css/bootstrap.min.css"/>
 <html lang="en-US">
   <head>
     <span><title>Look MA no hands!</title></span>
@@ -8,14 +6,13 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- proper rendering of Bootstrap for mobile devices -->
 </head>
-<!-- Try <div class="container"> <div class="row"> <div class="col-xs-12> (xs will scale up)" -->
   <style>
         .center-block {
         display: block;
         margin-right: auto;
         margin-left: auto;
         margin-bottom: 15px;
-        max-height: 500px;
+        max-height: 505px;
       }
 <!-- ^ btm adds space b/w pic and btn, do not put comments in {} -->
     .align {
@@ -47,11 +44,13 @@
 <audio id="myTune">
   <source src="C:\Users\Public\Music\Sample Music\Sleep Away.mp3">
 </audio>
+<!-- button class unable to be changed due to center-block? -->
   <button style="color:blue" onclick="document.getElementById('myTune').play()">Anywhere ^_^!</button>
     <h3 style="color: purple" class="align">Guess that's...</h3>
-    <!-- in-line style overrides css style class and id's -->
+    <!-- in-line style overrides css style class and id's
+    make a css style decoration top priority by using !important -->
   <div class="gray-background center-block">
     <label><input type="radio" name="awesome-fabulous" checked>Awesome</label>
     <label><input type="radio" name="awesome-fabulous">Fabulous</label>
   </div>
-  </body>     
+  </body>   
