@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
   <link rel="stylesheet"
     href="//maxcdn.bootstrapcdn.com/boostrap/3.3.1/css/bootstrap.min.css"/>
@@ -28,41 +27,6 @@
 <audio id="myTune">
   <source src="C:\Users\Public\Music\Sample Music\Sleep Away.mp3">
 </audio>
-<!-- Btn's center-block class ! allow for btn/btn text modification-->
+<!-- Btn's center-block class ! allow for btn/btn text modification -->
   <button class="center-block" onclick="document.getElementById('myTune').play()">Anywhere!</button>
   </body>     
-=======
-<!DOCTYPE html>
-  <link rel="stylesheet"
-    href="//maxcdn.bootstrapcdn.com/boostrap/3.3.1/css/bootstrap.min.css"/>
-<html lang="en-US">
-  <head>
-    <span><title>Look MA no hands!</title></span>
-    <!-- span used to show text when mousehovers over title -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- proper rendering of Bootstrap for mobile devices -->
-</head>
-  <style>
-        .center-block {
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-        max-height: 500px;
-      }
-    h1{
-      color: #8a2be2;
-      text-align:center;
-    }
-  </style>
-    <h1>Where does this go?</h1>
-    <body bgcolor= "#000000"> 
-    <img class="img-responsive center-block" src="C:\Users\Earthling\Pictures\3A55Kx3.jpg">
-    <!-- Add music -->
-<audio id="myTune">
-  <source src="C:\Users\Public\Music\Sample Music\Sleep Away.mp3">
-</audio>
-<!-- Btn's center-block class ! allow for btn/btn text modification-->
-  <button class="center-block" onclick="document.getElementById('myTune').play()">Anywhere!</button>
-  </body>     
->>>>>>> 5b600b22fea5fcae150bf069589ed52dd940aa56
-</html>
