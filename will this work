@@ -5,8 +5,10 @@ $(document).ready(function() {
   $("#target3").addClass("animated fadeOut");
   $("#target3").css("color", "red");
   $(".target:nth-child(2)").addClass("animated bounce");
+  $("body").addClass("animated hinge");
 })
 <!-- nth-child will give the 2nd child in each element bounce -->
+<!-- even if body not defined in html, jQuery will auto apply -->
 </script>
 <div class="container-fluid">
 <button class="btn btn-default target" id="target3">jQuery</button>
